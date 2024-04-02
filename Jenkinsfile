@@ -37,7 +37,7 @@ pipeline {
     stage('Deploying to Tomcat'){
       steps{
         script {
-          echo "input Staging or Production below"
+          echo "Start of Staging"
           lib2('Staging')
           }
           }
