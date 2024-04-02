@@ -6,7 +6,7 @@ pipeline {
     maven 'maven3.9.6'
   }
   environment {
-    GIT_REPO_URL = 'https://github.com/Pharmnana/maven-web-app.git'
+    GIT_REPO_URL = 'https://github.com/Pharmnana/maven-standalone-application.git'
   }
   stages{
     stage('Clone from Github'){
